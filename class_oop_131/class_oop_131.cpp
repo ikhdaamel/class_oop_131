@@ -7,21 +7,21 @@ public:
 	string nama;
 public: void cetak() {
 	cout << "NIM = " << nim;
-	cout << "\nNamaM = " << nama;
+	cout << "\nNama = " << nama;
 	}
 };
 
 class matakuliah {
 private:
 	string kode;
-	string nama;
+	string namaM;
 	int sks;
 public: 
 	void input() {
 		cout << "masukan kode matakuliah : ";
 		cin >> kode;
 		cout << "masukan nama matakuliah : ";
-		cin >> NamaM;
+		cin >> namaM;
 		cout << "jumlah SkS : ";
 		cin >> sks;
 	}
