@@ -7,7 +7,7 @@ public:
 	string nama;
 public: void cetak() {
 	cout << "NIM = " << nim;
-	cout << "\nNama = " << nama;
+	cout << "\nNamaM = " << nama;
 	}
 };
 
@@ -21,7 +21,9 @@ public:
 		cout << "masukan kode matakuliah : ";
 		cin >> kode;
 		cout << "masukan nama matakuliah : ";
-		cin >> namaM;
+		cin >> NamaM;
+		cout << "jumlah SkS : ";
+		cin >> sks;
 	}
 };
 
