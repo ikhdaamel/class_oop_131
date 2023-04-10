@@ -19,6 +19,7 @@ private:
 public: 
 	void input() {
 		cout << "masukan kode matakuliah : ";
+		cin >> kode;
 	}
 };
 
