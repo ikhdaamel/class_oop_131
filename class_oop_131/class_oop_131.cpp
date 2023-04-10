@@ -32,6 +32,12 @@ public:
 	}
 };
 
+int main()
+{
+	mahasiswa mhs1;
+	matakuliah mk;
+}
+
 
 
 int main()
