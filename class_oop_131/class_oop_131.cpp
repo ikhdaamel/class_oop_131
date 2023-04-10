@@ -44,4 +44,5 @@ int main()
 	mhs1.cetak();
 
 	mk.input();
+	mk.tampil();
 }
