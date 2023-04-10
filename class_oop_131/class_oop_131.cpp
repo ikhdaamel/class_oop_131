@@ -36,11 +36,7 @@ int main()
 {
 	mahasiswa mhs1;
 	matakuliah mk;
-}
 
-
-
-int main()
-{
-   
+	cout << "masukan NIM : ";
+	cin >> mhs1.nim;
 }
